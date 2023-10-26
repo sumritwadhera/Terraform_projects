@@ -1,0 +1,36 @@
+# Local .terraform directories
+.terraform/*
+
+# .tfstate and .tfstate.backup files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# .tfvars files that may contain sensitive information
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+*.tfvars.json
+
+# Log files
+*.log
+
+# Application binary files or directories
+*.bin
+*.exe
+
+# MacOS metadata files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# .terraform.lock.hcl - This file is used to lock provider versions
+.terraform.lock.hcl
+
+# .terraform-version - This file specifies the required Terraform version
+.terraform-version
+
+*.pem
